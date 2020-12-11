@@ -1,0 +1,7 @@
+.Announcements{
+    width: 90%;
+    height: 500px;
+    border-style: solid;
+    border-color: rgb(31, 31, 32);
+    overflow-y: scroll;
+}

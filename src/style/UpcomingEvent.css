@@ -1,0 +1,40 @@
+.UpcomingEvent{
+    min-width: 100vw;
+}
+
+.UpcomingEventContent{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.UpcomingEventContent .UpcomingEventPoster{
+    max-width: 30%;
+}
+
+.UpcomingEventPoster img{
+    max-width: 100%;
+    border-style: solid;
+    rotate: 30;
+}
+.UpcomingEventContent h5{
+    margin-bottom: 20px;
+     margin-top: 20px;
+    font-weight: lighter;
+}
+.UpcomingEventContent .Button{
+    margin-top: 20px;
+}
+
+@media (max-width: 1050px) {
+    .UpcomingEventContent{
+        padding: 10px;
+        text-align: center;
+    }
+    .UpcomingEventContent .UpcomingEventPoster{
+        margin-top: 20px;
+        max-width: 80%;
+    }
+}

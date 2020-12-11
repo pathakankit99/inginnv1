@@ -1,0 +1,38 @@
+.Navbar{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    max-height: 70px;
+    margin:0 !important;
+}
+
+.NavbarContent{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.NavbarContent img{
+    max-width: 50px;
+    object-fit: contain;
+}
+
+.ModalHeader{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.ButtonContainer{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+
+
+@media (max-width: 576px) {
+      
+    .ModalHeader{
+    }
+}

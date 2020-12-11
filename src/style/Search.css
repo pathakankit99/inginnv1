@@ -1,0 +1,36 @@
+.Search{
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.SearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Icon svg{
+    width: 30px;
+    height: 30px;
+
+}
+.Icon{
+    margin-right: 10px;
+}
+.SearchResult{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    
+    .Search{
+        max-width: 90% !important;
+    }
+        
+  
+}

@@ -1,0 +1,40 @@
+.CoreMembersCard{
+    position: relative;
+    font-family: 'Open Sans', sans-serif; 
+    margin: 2%;
+    margin-top: 0;
+    width: 300px;
+    height: 300px;    
+}
+.CoreMembersCard:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+}
+
+.CoreMembersCard img{
+    width: 100%;
+    object-fit: contain;
+}
+.CoreMembersCard:hover img{
+    filter: saturate(0%);
+    cursor: pointer;
+}
+
+.CoreMemberDetails{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 4;
+    bottom: 0;
+    background-color:rgba(10, 10, 5, 0.9) ;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.CoreMemberDetails h3{
+    padding-top:10px;
+}
+
+.MuiAvatar-root{
+    width: 100% !important;
+    height: 100% !important;
+}

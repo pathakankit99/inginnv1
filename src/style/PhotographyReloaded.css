@@ -1,0 +1,207 @@
+.PhotographyReloaded{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+ .ButtonCenter{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 10px;
+}
+.PhotographyReloadedSec1{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    overflow: hidden;
+}
+.PhotographyReloadedSec1 img{
+    max-width: 100%;
+    filter: brightness(30%);
+    
+}
+.PhotographyReloadedSec1Content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: -1;
+    padding-left: 20px;
+}
+.PhotographyReloadedSec1Content h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+.PhotographyReloadedMasterBackground{
+    position: absolute;
+    top: 100vh;
+}
+.PhotographyReloadedSec2{
+    width: 100vw;
+    padding-bottom: 40px;
+}
+.PhotographyReloadedSec2Content{
+    padding: 20px;
+    width: 80%;
+    border-style: solid;
+}
+
+.PhotographyReloadedSec2Content h3{
+    padding: 20px;
+}
+.PhotographyReloadedSec2Content h5{
+    padding: 20px;
+    font-weight: lighter;
+}
+.PhotographyReloadedSec3{
+    width: 100vw;
+    padding-bottom: 40px;
+}
+.PhotographyReloaded .SectionHeading{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* JudgesCard CSS */
+.PhotographyReloadedSec3Content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.PhotographyReloadedSec3 .JudgeCard{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+}
+.PhotographyReloadedSec3 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.JudgeDetail{
+    width: 100%;
+    position: absolute;
+    top: 88%;
+    height: 40px;
+    border-top-right-radius: 0%;
+    text-align: center;
+    background-color: #34aad9;
+    color: white;
+    -webkit-transition: 1s;
+    overflow: hidden;
+}
+.JudgeDetail h4{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.JudgeDetail h5{
+    font-weight: lighter;
+    padding: 5px;
+    
+}
+
+.JudgeCard:hover .JudgeDetail{
+    top: 50%;
+    height: 150px;
+    border-top-right-radius: 70px;
+    transition: all 1s ease-in-out;
+}
+
+/* Judges Card CSS above */
+.PhotographyReloadedSec4{
+    z-index: 2;
+    width: 100vw;
+    padding-bottom: 40px;
+}
+.PhotographyReloadedSec4Content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.PhotographyReloadedSec4Content li{
+    padding: 10px;
+}
+.PhotographyReloadedSec5{
+    z-index: 2;
+    width: 100vw;
+    padding-bottom: 100px;
+}
+.PhotographyReloadedSec5Content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.PhotographyReloadedSec5 .FAQTab{
+    width: 80%;
+    background-color:  #34aad9;    
+    margin-bottom: 20px;    
+}
+.FAQTab h5{
+    flex: 2;
+    font-weight:normal;
+    font-size: 1.2rem;
+}
+.FAQQuestion:hover{
+    cursor: pointer;
+}
+.FAQQuestion{
+    background-color:  #34aad9;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.FAQQuestion svg{
+    flex: 1;
+}
+.FAQAnswer{
+    width: 100%;
+}
+.FAQAnswer h5{
+    font-size: 1rem;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 1250px) {
+    .PhotographyReloadedSec1 img{
+        max-width: auto;
+        object-fit: cover;
+        height: 100%;
+    }
+    .PhotographyReloadedSec1Content{
+        justify-content: center;
+        padding: 0;
+    }
+    .PhotographyReloadedSec1Content h1{
+        text-align: center;
+        color: white;
+        font-size: 2.8rem;
+    }
+    .ButtonCenter{
+        justify-content: center;
+    }
+    .SectionHeading{
+        font-size: 1.7rem;
+    }
+    .FAQQuestion h5{
+        font-size: 0.8rem;
+    }
+    .FAQAnswer h5{
+        font-size: 0.7rem;
+    }
+    
+   
+}
